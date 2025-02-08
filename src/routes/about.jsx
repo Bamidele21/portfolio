@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import Lottie from "lottie-react";
 import hiTech from "../assets/hitech.json"
@@ -18,14 +19,14 @@ function About() {
             <div className="about-content">
                 <div className="about-text">
             <h1>About Me</h1>
-            <p>I am a enthuasiastic web developer with a passion for making fun and interactive web applications.  Even though I can work with both front-end and back-end frameworks, I specialize working on Front End with ReactJS an NextJS. I have a just over a year of experience and I am very excited to use this platform to showcase the projects that I have made in an effort to better myself at my profession.   </p>
+            <p>I am a enthuasiastic web developer with a passion for making fun and interactive web applications.  Even though I can  work with several front-end and back-end frameworks, I specialize working on Front End with ReactJS an NextJS with NodeJS as the backend. I have a just over a year of experience and I am very excited to use this platform to showcase the projects that I have made in an effort to better myself at my profession.   </p>
             </div>
             <Lottie className="lottie-animation2" animationData={hiTech}
              loop={true}/>
                 
             </div>
             <div className="proficiencies-container">
-                <h1>Proficiencies</h1>
+                <h1>Skills</h1>
                 <ul>
                     <li>HTML5 <TiHtml5 className="rIcon"/></li>
                     <li>CSS3 <PiFileCssBold className="rIcon"/> </li>

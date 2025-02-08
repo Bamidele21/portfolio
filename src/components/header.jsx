@@ -31,7 +31,7 @@ else
        
            
 
-        <h1><a href="/">Bamidele's Portfolio</a></h1>
+        <h1><a href="/">Bamidele&apos;s Portfolio</a></h1>
 
         <nav className="nav-list">
             <div className={menuToggle?  "list-group active":"list-group"}>

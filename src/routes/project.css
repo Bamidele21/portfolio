@@ -2,3 +2,40 @@
     margin-top: 120px;
     min-height: 80vh;
 }
+
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-item {
+    width: 520px;
+    height: 550px;
+    margin: 2rem;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+
+.project-item img {
+    border-radius: 8px;
+}
+
+.project-item h1 {
+    margin-top: 10px;
+    font-size: 2.4rem;
+}
+
+.project-item p {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.project-item:hover {
+    background-color: rgba(240, 255, 255, 0.117);
+    box-shadow: 0px 0px 3px 4px azure;
+    transition: .5s;
+}
