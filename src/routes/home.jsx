@@ -1,4 +1,5 @@
 import React from 'react';
+import './home.css'
 import Lottie from 'lottie-react';
 import techAnimation from "../assets/techAnimation.json"
 import { Link } from 'react-router-dom';
@@ -8,8 +9,8 @@ function Home() {
         <div className="home-container">
         <div className="home-intro">
             <div className="intro-text">
-            <h1>Bamidele Ogunseye</h1>
-            <h2>Fullstack Web Developer.</h2> 
+            <h1 >Bamidele Ogunseye</h1>
+            <h2 style={{display: 'inline-block'}}>Fullstack Web Developer.</h2> 
             </div>
             <Lottie className = "lottie-animation"
             animationData={techAnimation}

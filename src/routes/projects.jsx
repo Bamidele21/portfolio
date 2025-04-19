@@ -8,7 +8,7 @@ function Projects() {
     return (
         <div className="projects-container">
             <h2>Projects</h2>
-            <p>I have worked on several projects, including a React-based web application, a Node.js-based REST API, and a MongoDB database.</p>
+            <p>These are some of the projects Ive worked in an effort to better myself through practical experience.</p>
             <div className="item-container">
                 {projectData.map((item,index)=>(<ProjectItem key={index} title={item.title} image={item.image} url={item.url} disc={item.disc} id={item.id}/> ))}
             </div>

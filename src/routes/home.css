@@ -1,0 +1,29 @@
+@keyframes typing {
+    from { width: 0;}
+    
+}
+
+@keyframes typing2 {
+    0% {width:0 }
+
+    50% {width:0}
+
+    100% {width: 100%}
+
+}
+
+.intro-text h1 {
+    animation: typing steps(16) 2s;
+   white-space: nowrap;
+    overflow: hidden;
+    width: 100%
+}
+
+.intro-text h2 {
+   
+    animation: typing2 steps(23) 4s;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%
+}
