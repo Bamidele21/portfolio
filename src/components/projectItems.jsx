@@ -7,7 +7,7 @@ function ProjectItem({title, image, disc,url, id}) {
     return (
         <div  onClick={()=>window.open(url)} className="project-item">
             <h1>{title}</h1>
-            <img src={image} alt={title} height= "320px" width="400"/>
+            <img src={image} alt={title} height= "290px" width="380px"/>
             
             <p>{disc}</p>
         </div>
