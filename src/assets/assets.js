@@ -45,7 +45,7 @@ disc: " an application that allows nested comments. made using React framework a
  id:4,   
 title: "Poke Search",
 image: pokesearch,
-url: "https://sensational-froyo-f96081.netlify.app/",
+url: "https://bampokesearch.netlify.app/",
 disc: "an application to search for pokemon. Made using React FrameWork as the Frontend and Axios to Fetch The Api "
 },
 

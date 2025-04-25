@@ -136,5 +136,11 @@ button:hover {
   .home-intro {
     flex-direction: column;
   }
+
+
+  body {
+    background-size: cover
+
+  };
   
 }
